@@ -26,7 +26,7 @@ export default function CartTable() {
                     className="text-red-700 font-black"
                     onClick={() => dispatch({ type: "deleteAll" })}
                   >
-                    Delete all
+                    Delete All
                   </button>
                 </th>
               </tr>
