@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+a.active {
+  border-bottom: 2px solid #7fad39;
+}
+
+::-webkit-scrollbar {
+  width: 1.25rem;
+}
+
+::-webkit-scrollbar-track {
+  background: #7fad39;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(51 65 85);
+  border: 3px solid #fff;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #aaa;
+}
