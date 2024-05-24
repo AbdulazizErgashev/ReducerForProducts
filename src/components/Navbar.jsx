@@ -21,6 +21,9 @@ export default function Navbar() {
               <NavLink to="/Products">Products</NavLink>
             </li>
             <li>
+              <NavLink to="/Taymer">Taymer</NavLink>
+            </li>
+            <li>
               <NavLink to="/CartTable">
                 <MdShoppingCart className="text-[#7FAD39]" />
               </NavLink>
